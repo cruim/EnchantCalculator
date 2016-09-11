@@ -18,31 +18,33 @@ namespace EnchantCalculator
         public Form1()
         {
             InitializeComponent();
-            this.comboBoxOfWeapon.DataSource = listOfWeapon;
-            this.comboBoxOfWeapon.DisplayMember = nameof(Product.Name);
-            comboBoxOfWeapon.ValueMember = nameof(Product.BaseAttack);
+            comboBoxOfWeapon.DataSource = listOfWeapon;
+            comboBoxOfWeapon.DisplayMember = nameof(Product.Name);
             comboBoxOfWeapon.ValueMember = nameof(Product.SortOfWeapon);
-            //comboBoxOfWeapon.ValueMember = nameof(Product.BlessOrSimple);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
            
             EnchantFunction(ref x);
-            textBox1.Text = x.ToString() + comboBoxOfWeapon;
+            var selectedItem = (Product)comboBoxOfWeapon.SelectedItem;
+            int baseAttack = selectedItem.BaseAttack;
+            int y = baseAttack + x; //базовое значение + изменения от модификации
+            textBox1.Text = y.ToString();
             x = 0;
 
         }
 
         public void EnchantFunction(ref int g)
         {
-            int countOfEnchant = Convert.ToInt32(comboBoxCountOfEnchant.SelectedItem);
+            int countOfEnchant = Convert.ToInt32(comboBoxCountOfEnchant.SelectedItem); //уровень модификации
 
-            //int baseAttack = Convert.ToInt32(comboBoxOfWeapon.SelectedItem);
-
-            int oneClickEnchant = Convert.ToInt32(comboBoxOfWeapon.SelectedValue); //базовая прибавка
-
-            int countOfIteration = 1;
+            var selectedItem = (Product)comboBoxOfWeapon.SelectedItem; //переменная, с помощью которой обращаемся к полям коллекции
+            
+            int oneClickEnchant = (int) Math.Ceiling(selectedItem.SortOfWeapon * selectedItem.BlessOrSimple); //базовая прибавка
+            
+            
+            int countOfIteration = 1; //счетчик, позволяющий прервать цикл при countOfIteration > countOfEnchant
 
 
 
@@ -59,7 +61,9 @@ namespace EnchantCalculator
                     countOfIteration++;
 
                 }
+
             }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

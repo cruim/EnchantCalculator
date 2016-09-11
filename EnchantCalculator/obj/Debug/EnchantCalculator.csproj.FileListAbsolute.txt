@@ -7,3 +7,12 @@ C:\Users\036.036-ПК\documents\visual studio 2015\Projects\EnchantCalculator\En
 C:\Users\036.036-ПК\documents\visual studio 2015\Projects\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.csproj.GenerateResource.Cache
 C:\Users\036.036-ПК\documents\visual studio 2015\Projects\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.exe
 C:\Users\036.036-ПК\documents\visual studio 2015\Projects\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.pdb
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\bin\Debug\EnchantCalculator.exe.config
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.exe
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.pdb
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\bin\Debug\EnchantCalculator.exe
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\bin\Debug\EnchantCalculator.pdb
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.csprojResolveAssemblyReference.cache
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.Form1.resources
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.Properties.Resources.resources
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.csproj.GenerateResource.Cache
