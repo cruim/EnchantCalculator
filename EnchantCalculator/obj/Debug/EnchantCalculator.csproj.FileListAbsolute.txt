@@ -12,7 +12,7 @@ C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\En
 C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.pdb
 C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\bin\Debug\EnchantCalculator.exe
 C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\bin\Debug\EnchantCalculator.pdb
-C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.csprojResolveAssemblyReference.cache
 C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.Form1.resources
 C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.Properties.Resources.resources
 C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.csproj.GenerateResource.Cache
+C:\VSProjects\EnchantCalculator\EnchantCalculator\EnchantCalculator\obj\Debug\EnchantCalculator.csprojResolveAssemblyReference.cache

@@ -35,7 +35,6 @@ namespace EnchantCalculator
             this.comboBoxCountOfEnchant = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.comboBoxOfWeapon = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -49,12 +48,12 @@ namespace EnchantCalculator
             "+2",
             "+3",
             "+4",
-            "5",
+            "+5",
             "+6",
             "+7",
             "+8",
             "+9",
-            "10",
+            "+10",
             "+11",
             "+12",
             "+13",
@@ -85,16 +84,6 @@ namespace EnchantCalculator
             this.textBox1.Size = new System.Drawing.Size(289, 110);
             this.textBox1.TabIndex = 3;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(418, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // comboBoxOfWeapon
             // 
             this.comboBoxOfWeapon.FormattingEnabled = true;
@@ -109,7 +98,6 @@ namespace EnchantCalculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 267);
             this.Controls.Add(this.comboBoxOfWeapon);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBoxCountOfEnchant);
@@ -124,7 +112,6 @@ namespace EnchantCalculator
         private System.Windows.Forms.ComboBox comboBoxCountOfEnchant;
         private Button button1;
         private TextBox textBox1;
-        private Button button2;
         private ComboBox comboBoxOfWeapon;
     }
 }
