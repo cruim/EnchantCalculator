@@ -61,7 +61,7 @@ namespace EnchantCalculator
             "+14",
             "+15",
             "+16"});
-            this.comboBoxCountOfEnchant.Location = new System.Drawing.Point(203, 66);
+            this.comboBoxCountOfEnchant.Location = new System.Drawing.Point(274, 37);
             this.comboBoxCountOfEnchant.Name = "comboBoxCountOfEnchant";
             this.comboBoxCountOfEnchant.Size = new System.Drawing.Size(121, 21);
             this.comboBoxCountOfEnchant.TabIndex = 1;
@@ -69,7 +69,7 @@ namespace EnchantCalculator
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(397, 63);
+            this.button1.Location = new System.Drawing.Point(418, 37);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -79,10 +79,10 @@ namespace EnchantCalculator
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(106, 150);
+            this.textBox1.Location = new System.Drawing.Point(83, 106);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 44);
+            this.textBox1.Size = new System.Drawing.Size(289, 110);
             this.textBox1.TabIndex = 3;
             // 
             // button2
@@ -96,16 +96,12 @@ namespace EnchantCalculator
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBoxOfWeapon
-            //
-
-
-
+            // 
             this.comboBoxOfWeapon.FormattingEnabled = true;
-            this.comboBoxOfWeapon.Location = new System.Drawing.Point(45, 63);
+            this.comboBoxOfWeapon.Location = new System.Drawing.Point(21, 37);
             this.comboBoxOfWeapon.Name = "comboBoxOfWeapon";
-            this.comboBoxOfWeapon.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxOfWeapon.Size = new System.Drawing.Size(247, 21);
             this.comboBoxOfWeapon.TabIndex = 5;
-            
             // 
             // Form1
             // 
