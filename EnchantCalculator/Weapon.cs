@@ -1,8 +1,8 @@
 ﻿namespace EnchantCalculator
 {
-    class Product
+    class Weapon
     {
-        public Product(string name, int basePAttack, int baseMAttack, int sortOfPWeapon, double blessOrSimple)
+        public Weapon(string name, int basePAttack, int baseMAttack, int sortOfPWeapon, double blessOrSimple)
         {
             Name = name;
             BasePAttack = basePAttack;

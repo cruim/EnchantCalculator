@@ -36,6 +36,9 @@ namespace EnchantCalculator
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBoxOfWeapon = new System.Windows.Forms.ComboBox();
+            this.radioButtonOfWeapon = new System.Windows.Forms.RadioButton();
+            this.radioButtonOfArmor = new System.Windows.Forms.RadioButton();
+            this.comboBoxOfArmor = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // comboBoxCountOfEnchant
@@ -60,15 +63,15 @@ namespace EnchantCalculator
             "+14",
             "+15",
             "+16"});
-            this.comboBoxCountOfEnchant.Location = new System.Drawing.Point(274, 37);
+            this.comboBoxCountOfEnchant.Location = new System.Drawing.Point(293, 53);
             this.comboBoxCountOfEnchant.Name = "comboBoxCountOfEnchant";
-            this.comboBoxCountOfEnchant.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxCountOfEnchant.Size = new System.Drawing.Size(153, 21);
             this.comboBoxCountOfEnchant.TabIndex = 1;
             this.comboBoxCountOfEnchant.Text = "Уровень модификации";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(418, 37);
+            this.button1.Location = new System.Drawing.Point(505, 51);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -78,7 +81,7 @@ namespace EnchantCalculator
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 106);
+            this.textBox1.Location = new System.Drawing.Point(157, 188);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(289, 110);
@@ -92,11 +95,44 @@ namespace EnchantCalculator
             this.comboBoxOfWeapon.Size = new System.Drawing.Size(247, 21);
             this.comboBoxOfWeapon.TabIndex = 5;
             // 
+            // radioButtonOfWeapon
+            // 
+            this.radioButtonOfWeapon.AutoSize = true;
+            this.radioButtonOfWeapon.Location = new System.Drawing.Point(21, 122);
+            this.radioButtonOfWeapon.Name = "radioButtonOfWeapon";
+            this.radioButtonOfWeapon.Size = new System.Drawing.Size(64, 17);
+            this.radioButtonOfWeapon.TabIndex = 6;
+            this.radioButtonOfWeapon.Text = "Оружие";
+            this.radioButtonOfWeapon.UseVisualStyleBackColor = true;
+            this.radioButtonOfWeapon.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButtonOfArmor
+            // 
+            this.radioButtonOfArmor.AutoSize = true;
+            this.radioButtonOfArmor.Location = new System.Drawing.Point(205, 122);
+            this.radioButtonOfArmor.Name = "radioButtonOfArmor";
+            this.radioButtonOfArmor.Size = new System.Drawing.Size(63, 17);
+            this.radioButtonOfArmor.TabIndex = 7;
+            this.radioButtonOfArmor.Text = "Доспех";
+            this.radioButtonOfArmor.UseVisualStyleBackColor = true;
+            this.radioButtonOfArmor.CheckedChanged += new System.EventHandler(this.radioButtonOfArmor_CheckedChanged);
+            // 
+            // comboBoxOfArmor
+            // 
+            this.comboBoxOfArmor.FormattingEnabled = true;
+            this.comboBoxOfArmor.Location = new System.Drawing.Point(21, 76);
+            this.comboBoxOfArmor.Name = "comboBoxOfArmor";
+            this.comboBoxOfArmor.Size = new System.Drawing.Size(247, 21);
+            this.comboBoxOfArmor.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 267);
+            this.ClientSize = new System.Drawing.Size(604, 348);
+            this.Controls.Add(this.comboBoxOfArmor);
+            this.Controls.Add(this.radioButtonOfArmor);
+            this.Controls.Add(this.radioButtonOfWeapon);
             this.Controls.Add(this.comboBoxOfWeapon);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
@@ -113,6 +149,9 @@ namespace EnchantCalculator
         private Button button1;
         private TextBox textBox1;
         private ComboBox comboBoxOfWeapon;
+        private RadioButton radioButtonOfWeapon;
+        private RadioButton radioButtonOfArmor;
+        private ComboBox comboBoxOfArmor;
     }
 }
 
