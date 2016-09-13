@@ -62,8 +62,22 @@ namespace EnchantCalculator
             "+13",
             "+14",
             "+15",
-            "+16"});
-            this.comboBoxCountOfEnchant.Location = new System.Drawing.Point(293, 53);
+            "+16",
+            "+17",
+            "+18",
+            "+19",
+            "+20",
+            "+21",
+            "+22",
+            "+23",
+            "+24",
+            "+25",
+            "+26",
+            "+27",
+            "+28",
+            "+29",
+            "+30"});
+            this.comboBoxCountOfEnchant.Location = new System.Drawing.Point(317, 53);
             this.comboBoxCountOfEnchant.Name = "comboBoxCountOfEnchant";
             this.comboBoxCountOfEnchant.Size = new System.Drawing.Size(153, 21);
             this.comboBoxCountOfEnchant.TabIndex = 1;
@@ -92,7 +106,7 @@ namespace EnchantCalculator
             this.comboBoxOfWeapon.FormattingEnabled = true;
             this.comboBoxOfWeapon.Location = new System.Drawing.Point(21, 37);
             this.comboBoxOfWeapon.Name = "comboBoxOfWeapon";
-            this.comboBoxOfWeapon.Size = new System.Drawing.Size(247, 21);
+            this.comboBoxOfWeapon.Size = new System.Drawing.Size(272, 21);
             this.comboBoxOfWeapon.TabIndex = 5;
             // 
             // radioButtonOfWeapon
@@ -122,7 +136,7 @@ namespace EnchantCalculator
             this.comboBoxOfArmor.FormattingEnabled = true;
             this.comboBoxOfArmor.Location = new System.Drawing.Point(21, 76);
             this.comboBoxOfArmor.Name = "comboBoxOfArmor";
-            this.comboBoxOfArmor.Size = new System.Drawing.Size(247, 21);
+            this.comboBoxOfArmor.Size = new System.Drawing.Size(272, 21);
             this.comboBoxOfArmor.TabIndex = 8;
             // 
             // Form1
